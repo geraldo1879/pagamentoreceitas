@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pneus em Promoção | Troca Rápida e Garantia – Sua Loja de Pneus</title>
+  <meta name="description" content="Promoção de pneus: instalação rápida, garantia e condições especiais. Agende agora pelo WhatsApp ou formulário. Atendemos carros e SUVs.">
+  <meta property="og:title" content="Pneus em Promoção – Troca Rápida" />
+  <meta property="og:description" content="Preços imbatíveis, marcas originais e instalação no mesmo dia." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://exemplo.com/pneus" />
+  <meta property="og:image" content="https://exemplo.com/imagens/pneus-og.jpg" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23000'/%3E%3Ccircle cx='50' cy='50' r='32' fill='%23fff'/%3E%3Ccircle cx='50' cy='50' r='18' fill='%23000'/%3E%3C/svg%3E">
+  <style>
+    :root { --bg:#0f172a; --card:#111827; --text:#e5e7eb; --muted:#9ca3af; --brand:#22c55e; --accent:#60a5fa; --danger:#ef4444; }
+    * { box-sizing:border-box; }
+    html,body { margin:0; padding:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Inter, Arial, sans-serif; background: var(--bg); color: var(--text); }
+    a { color: inherit; text-decoration: none; }
+    img { max-width:100%; height:auto; display:block; }
+    .container { width: min(1180px, 92vw); margin: 0 auto; }
+    .grid { display:grid; gap:1.25rem; }
+    .btn { display:inline-flex; align-items:center; gap:.5rem; border:0; border-radius:999px; padding:.9rem 1.2rem; font-weight:700; cursor:pointer; transition:.2s transform,.2s filter; }
+    .btn:active { transform: translateY(1px); }
+    .btn-primary { background: linear-gradient(180deg, var(--brand), #16a34a); color:#04160a; }
+    .btn-outline { background: transparent; color: var(--text); border:1px solid #334155; }
+    .badge { display:inline-flex; align-items:center; gap:.4rem; background:#0b1220; border:1px solid #1f2937; color:#cbd5e1; padding:.35rem .7rem; border-radius:999px; font-size:.8rem; }
+    header.hero { position:relative; overflow:hidden; isolation:isolate; }
+    .hero-bg { position:absolute; inset:0; background: radial-gradient(1200px 600px at 80% -10%, rgba(96,165,250,.25), transparent 55%), radial-gradient(800px 400px at -10% 20%, rgba(34,197,94,.25), transparent 55%); z-index:-1; }
+    .hero-inner { padding: clamp(2rem, 4vw, 4rem) 0; display:grid; grid-template-columns: 1.1fr .9fr; gap:2rem; align-items:center; }
+    .hero h1 { font-size: clamp(1.8rem, 2.8vw + 1rem, 3rem); line-height:1.1; margin:0 0 1rem; }
+    .hero p { color: var(--muted); margin:0 0 1.2rem; font-size:1.05rem; }
+    .hero-card { background: linear-gradient(180deg,#0b1220,#0a0f1a); border:1px solid #1f2937; border-radius:1.25rem; padding:1.25rem; box-shadow: 0 10px 40px rgba(0,0,0,.35); }
+    .hero-form label { font-size:.9rem; color:#cbd5e1; }
+    .hero-form input, .hero-form select, .hero-form textarea { width:100%; background:#0b1220; color:#e5e7eb; border:1px solid #1f2937; border-radius:.9rem; padding:.9rem 1rem; outline:none; }
+    .hero-form textarea{ min-height:90px; }
+    .hero-form .row { display:grid; grid-template-columns:1fr 1fr; gap:.75rem; }
+    .trust { display:flex; flex-wrap:wrap; align-items:center; gap:.6rem; margin-top:1rem; }
+    .section { padding: clamp(2rem, 4vw, 4rem) 0; }
+    .card { background: linear-gradient(180deg,#0b1220,#0a0f1a); border:1px solid #1f2937; border-radius:1.25rem; padding:1.25rem; }
+    .features { grid-template-columns: repeat(3, 1fr); }
+    .sizes { grid-template-columns: repeat(4, 1fr); }
+    .sizes .sz { padding:.8rem 1rem; border:1px dashed #263042; border-radius:.9rem; text-align:center; font-weight:600; }
+    .prices { grid-template-columns: repeat(3, 1fr); }
+    .price { display:flex; flex-direction:column; gap:.6rem; }
+    .price .value { font-size:1.9rem; font-weight:800; }
+    .price small { color:var(--muted); }
+    .faq { grid-template-columns:1fr; gap:.8rem; }
+    .faq details { background:#0b1220; border:1px solid #1f2937; border-radius:.9rem; padding:1rem 1rem; }
+    .faq summary { cursor:pointer; font-weight:700; }
+    .sticky-cta { position: sticky; bottom: 12px; z-index:50; }
+    .bar { display:flex; gap:.5rem; flex-wrap:wrap; background: rgba(6,8,12,.7); border:1px solid #1f2937; backdrop-filter: blur(8px); padding:.6rem; border-radius:999px; justify-content:center; }
+    .avatar { width:44px; height:44px; border-radius:50%; background:linear-gradient(120deg,#1f2937,#0b1220); display:grid; place-items:center; border:1px solid #253348; }
+    .foot { color:#9ca3af; font-size:.9rem; }
+    .floating-wa { position:fixed; right:18px; bottom:18px; z-index:60; }
+    .pill { border:1px solid #1f2937; background:#0b1220; border-radius:999px; padding:.4rem .75rem; font-size:.85rem; color:#cbd5e1; }
+    .map { aspect-ratio: 16/9; width:100%; border:0; border-radius:1rem; }
+    .logos { display:flex; gap:1rem; flex-wrap:wrap; align-items:center; opacity:.9; }
+
+    @media (max-width: 980px){
+      .hero-inner { grid-template-columns: 1fr; }
+      .features { grid-template-columns: 1fr; }
+      .sizes { grid-template-columns: repeat(2, 1fr); }
+      .prices { grid-template-columns: 1fr; }
+      .hero-form .row { grid-template-columns:1fr; }
+    }
+  </style>
+  
+  <!-- Tag do Google (gtag.js) – substitua o ID abaixo -->
+  <script>
+    // Opcional: cole aqui seu gtag/gtm real
+    // window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-CONVERSION_ID');
+  </script>
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoPartsStore",
+    "name": "Sua Loja de Pneus",
+    "image": "https://exemplo.com/imagens/loja.jpg",
+    "address": {"@type":"PostalAddress","streetAddress":"Rua Exemplo, 123","addressLocality":"Sua Cidade","addressRegion":"UF","postalCode":"00000-000","addressCountry":"BR"},
+    "geo": {"@type":"GeoCoordinates","latitude": -12.9718, "longitude": -38.5011},
+    "telephone": "+55 71 99999-9999",
+    "openingHours": "Mo-Sa 08:00-18:00",
+    "url": "https://exemplo.com/pneus"
+  }
+  </script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <div>
+        <span class="badge" aria-label="Oferta por tempo limitado">🔥 Oferta por tempo limitado</span>
+        <h1>Promoção de Pneus com <span style="color:var(--brand)">Instalação no Mesmo Dia</span></h1>
+        <p>Marcas originais, garantia de 12 meses e condições especiais. Atendemos carros, SUVs e picapes. <strong>Faça sua cotação agora</strong> e garanta o melhor preço.</p>
+        <div class="grid features">
+          <div class="card">
+            <h3>✅ Instalação Express</h3>
+            <p class="muted">Agendamento rápido e equipe especializada.</p>
+          </div>
+          <div class="card">
+            <h3>🛡️ Garantia Real</h3>
+            <p>Garantia de fábrica + inspeção de segurança.</p>
+          </div>
+          <div class="card">
+            <h3>💳 Até 10x</h3>
+            <p>Condições de pagamento facilitadas no cartão.</p>
+          </div>
+        </div>
+        <div class="trust">
+          <span class="pill">⭐ 4.9/5 (1.200+ avaliações)</span>
+          <span class="pill">🏷️ Preço imbatível</span>
+          <span class="pill">🧰 Balanceamento incluso</span>
+        </div>
+        <div style="margin-top:1.2rem; display:flex; gap:.6rem; flex-wrap:wrap;">
+          <a class="btn btn-primary" href="#orcamento" aria-label="Ir para formulário de orçamento">Fazer Orçamento</a>
+          <a class="btn btn-outline" href="tel:+5571999999999" aria-label="Ligar agora">Ligar Agora</a>
+          <a class="btn btn-outline" href="https://wa.me/5571999999999?text=Ol%C3%A1%2C%20quero%20cotacao%20de%20pneus" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">WhatsApp</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <form id="leadForm" class="hero-form" novalidate>
+          <h2 id="orcamento">Peça seu orçamento</h2>
+          <div class="row">
+            <div>
+              <label for="nome">Nome</label>
+              <input id="nome" name="nome" autocomplete="name" required placeholder="Seu nome" />
+            </div>
+            <div>
+              <label for="telefone">Telefone/WhatsApp</label>
+              <input id="telefone" name="telefone" autocomplete="tel" required placeholder="(71) 9 9999-9999" />
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label for="veiculo">Veículo</label>
+              <input id="veiculo" name="veiculo" placeholder="Ex: HB20 1.6 2019" />
+            </div>
+            <div>
+              <label for="aro">Aro</label>
+              <select id="aro" name="aro">
+                <option value="">Selecione</option>
+                <option>ARO 13</option>
+                <option>ARO 14</option>
+                <option>ARO 15</option>
+                <option>ARO 16</option>
+                <option>ARO 17</option>
+                <option>ARO 18</option>
+                <option>ARO 19+</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Ex: Quero 2 pneus 195/55 R15"></textarea>
+          </div>
+          <label style="display:flex; align-items:center; gap:.5rem; margin:.6rem 0 1rem;">
+            <input type="checkbox" id="lgpd" required />
+            <span>Autorizo o contato conforme a LGPD.</span>
+          </label>
+          <div style="display:flex; gap:.6rem; flex-wrap:wrap;">
+            <button type="submit" class="btn btn-primary">Pedir Cotação</button>
+            <a class="btn btn-outline" target="_blank" rel="noopener" id="waBtn">Enviar no WhatsApp</a>
+          </div>
+          <p id="formMsg" role="status" aria-live="polite" style="margin:.6rem 0 0; color:var(--muted);"></p>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container">
+      <h2>Medidas mais vendidas</h2>
+      <div class="grid sizes" aria-label="Lista de medidas de pneus mais vendidas">
+        <div class="sz">185/60 R14</div>
+        <div class="sz">195/55 R15</div>
+        <div class="sz">205/55 R16</div>
+        <div class="sz">215/60 R17</div>
+        <div class="sz">225/45 R17</div>
+        <div class="sz">235/50 R18</div>
+        <div class="sz">245/45 R19</div>
+        <div class="sz">265/60 R18</div>
+      </div>
+    </section>
+
+    <section class="section" style="background:#0b1220; border-top:1px solid #1f2937; border-bottom:1px solid #1f2937;">
+      <div class="container grid prices">
+        <div class="card price">
+          <h3>Pneus Aro 14–15</h3>
+          <div class="value">A partir de R$ 299</div>
+          <small>Instalação e válvula inclusas</small>
+          <a href="#orcamento" class="btn btn-primary">Quero esse</a>
+        </div>
+        <div class="card price">
+          <h3>Pneus Aro 16–17</h3>
+          <div class="value">A partir de R$ 399</div>
+          <small>Balanceamento incluso</small>
+          <a href="#orcamento" class="btn btn-primary">Quero esse</a>
+        </div>
+        <div class="card price">
+          <h3>Pneus Aro 18+</h3>
+          <div class="value">A partir de R$ 549</div>
+          <small>Marcas premium</small>
+          <a href="#orcamento" class="btn btn-primary">Quero esse</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="grid" style="grid-template-columns:1.2fr .8fr; align-items:start;">
+        <div>
+          <h2>Por que comprar conosco?</h2>
+          <ul>
+            <li>✅ Equipe técnica certificada</li>
+            <li>✅ Garantia escrita de 12 meses</li>
+            <li>✅ Parcelamento em até 10x</li>
+            <li>✅ Troca rápida com agendamento</li>
+            <li>✅ Atendimento via WhatsApp</li>
+          </ul>
+          <div class="logos" aria-label="Marcas de pneus disponíveis">
+            <span class="badge">Michelin</span>
+            <span class="badge">Pirelli</span>
+            <span class="badge">Goodyear</span>
+            <span class="badge">Continental</span>
+            <span class="badge">Bridgestone</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Localização</h3>
+          <p class="muted">Rua Exemplo, 123 – Sua Cidade/UF</p>
+          <iframe class="map" title="Mapa da loja" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.334!2d-38.5011!3d-12.9718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z!5e0!3m2!1spt-BR!2sbr!4v0000000000"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq grid">
+        <details>
+          <summary>Quanto tempo leva para trocar os pneus?</summary>
+          <div>Na maioria dos casos, concluímos em até 60 minutos após o início do serviço.</div>
+        </details>
+        <details>
+          <summary>As rodas são balanceadas?</summary>
+          <div>Sim, o balanceamento está incluso nas ofertas indicadas.</div>
+        </details>
+        <details>
+          <summary>Quais formas de pagamento aceitam?</summary>
+          <div>Aceitamos cartões, PIX e boleto. Parcelamos em até 10x no cartão (consulte condições).</div>
+        </details>
+        <details>
+          <summary>Vocês dão garantia?</summary>
+          <div>Oferecemos garantia de 12 meses contra defeitos de fabricação, além de inspeção gratuita após 5.000 km.</div>
+        </details>
+      </div>
+    </section>
+
+    <div class="container sticky-cta" aria-hidden="false">
+      <div class="bar">
+        <span class="avatar" aria-hidden="true">🛞</span>
+        <strong>Precisa de ajuda para escolher o pneu?</strong>
+        <a class="btn btn-primary" href="https://wa.me/5571999999999?text=Ol%C3%A1%2C%20quero%20ajuda%20para%20escolher%20meu%20pneu" target="_blank" rel="noopener">Falar no WhatsApp</a>
+        <a class="btn btn-outline" href="tel:+5571999999999">Ligar</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="section container foot">
+    <div style="display:flex; gap:1rem; justify-content:space-between; align-items:center; flex-wrap:wrap;">
+      <div>
+        <strong>Sua Loja de Pneus</strong><br>
+        CNPJ 00.000.000/0000-00 · Rua Exemplo, 123 – Sua Cidade/UF · (71) 99999-9999
+      </div>
+      <div>
+        <a href="#" style="margin-right:1rem;">Política de Privacidade</a>
+        <a href="#">Termos de Uso</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="btn btn-primary floating-wa" href="https://wa.me/5571999999999?text=Ol%C3%A1%2C%20preciso%20de%20pneus" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">
+    WhatsApp
+  </a>
+
+  <script>
+    const form = document.getElementById('leadForm');
+    const msg = document.getElementById('formMsg');
+    const waBtn = document.getElementById('waBtn');
+
+    function encodeWhatsAppText(data){
+      const texto = `Olá, quero cotar pneus.%0A`+
+        `Nome: ${data.nome || ''}%0A`+
+        `Telefone: ${data.telefone || ''}%0A`+
+        `Veículo: ${data.veiculo || ''}%0A`+
+        `Aro: ${data.aro || ''}%0A`+
+        `Mensagem: ${data.mensagem || ''}`;
+      return texto;
+    }
+
+    waBtn.addEventListener('click', (e)=>{
+      const data = Object.fromEntries(new FormData(form));
+      const phone = '5571999999999'; // Substitua pelo seu número com DDI/DDD
+      waBtn.href = `https://wa.me/${phone}?text=${encodeWhatsAppText(data)}`;
+    });
+
+    form.addEventListener('submit', async (e)=>{
+      e.preventDefault();
+      msg.textContent = '';
+      const data = Object.fromEntries(new FormData(form));
+
+      // Validações simples
+      if(!data.nome || !data.telefone){
+        msg.textContent = 'Preencha nome e telefone para continuar.';
+        return;
+      }
+      if(!document.getElementById('lgpd').checked){
+        msg.textContent = 'É necessário aceitar a autorização de contato.';
+        return;
+      }
+
+      try{
+        // Envie para sua API/Zapier/Formspree aqui
+        // Exemplo com fetch para endpoint próprio:
+        // await fetch('https://suaapi.com/lead', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(data) });
+
+        // Dispara conversão do Google Ads, se estiver configurado
+        if(window.gtag){
+          // gtag('event', 'conversion', { 'send_to': 'AW-CONVERSION_ID/label' });
+        }
+        msg.textContent = 'Recebemos sua solicitação. Em breve entraremos em contato!';
+        form.reset();
+      }catch(err){
+        console.error(err);
+        msg.textContent = 'Não foi possível enviar agora. Tente o botão do WhatsApp.';
+      }
+    });
+  </script>
+</body>
+</html>
